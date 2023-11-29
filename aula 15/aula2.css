@@ -1,0 +1,29 @@
+/* Estilo padrão (desktop-first)
+*/
+.responsive-image {
+    width: 100%;
+    height: auto;
+    }
+    /* Carregando uma imagem menor
+    para dispositivos com tela menor
+    que 768px */
+    @media (max-width: 768px) {
+    .responsive-image {
+    content: url('https://cdnx.jumpseller.com/deckscards/image/18074650/245859.jpg?1653506854');
+    }
+    @media(max-width: 800px)
+    { .responsive-image1{
+        content: url('https://img.mypcards.com/img/9/1595/digimon_bt5_086/digimon_bt5_086_en.jpg');}
+    
+    }
+}    .container {
+        background-color: lightblue;
+        }
+        /* Cor de fundo diferente para
+        orientação paisagem */
+        @media (orientation: landscape) {
+        .container {
+        background-color:
+        lightcoral;
+        }
+        }

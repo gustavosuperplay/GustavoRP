@@ -1,0 +1,17 @@
+@keyframes circle{
+    from{
+        transform: rotate(0deg) translate(25px);
+    }
+}
+to{
+  transform: rotate(360deg) translate(25px);
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    margin: 60px auto;
+
+    animation: circle 1s linear infinite;
+}

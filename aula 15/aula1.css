@@ -1,0 +1,14 @@
+/* Estilo padrão (desktop-first)
+*/
+.responsive-image {
+    width: 100%;
+    height: auto;
+    }
+    /* Carregando uma imagem menor
+    para dispositivos com tela menor
+    que 768px */
+    @media (max-width: 768px) {
+    .responsive-image {
+    content: url('smallimage.jpg');
+    }
+    }

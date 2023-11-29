@@ -1,0 +1,39 @@
+/* Seletores Hierárquicos */
+/* Seleciona todos os parágrafos que são descendentes da div com a classe "container" */
+.container p {
+    color: blue;
+    }
+    /* Seleciona apenas parágrafos que são filhos diretos da div com a classe "container" */
+    .container > p {
+    font-weight: bold;
+    }
+    /* Seleciona o parágrafo que vem imediatamente após uma div dentro da div com a classe
+    "container" */
+    .container div + p {
+    text-decoration: underline;
+    } 
+    /* Seletores de Atributo */
+/* Seleciona o campo input do
+tipo texto */
+input[type="text"] {
+    border: 2px solid green;
+    }
+    /* Pseudo-classes */
+    /* Altera a cor do link quando
+    o mouse estiver sobre ele */
+    a:hover {
+    color: red;
+    }
+    /* Pseudo-elementos */
+    /* Utiliza duas vezes os dois pontos :: */
+    .container::before {
+    content: '"';
+    font-size: 40px; /* Torna as aspas
+    maiores que o texto da citação */
+    position: absolute;
+    }
+    .container::before {
+    top: 0;
+    left: 0px; /* Posiciona a aspa de
+    abertura no lado esquerdo */
+    }

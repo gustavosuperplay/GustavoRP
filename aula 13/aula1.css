@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+    }
+    .flex-item {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    }
+    .flex-container {
+    justify-content: space-between;
+    align-items: center;
+    }
+    .flex-container {
+        display: flex;
+        border: 3px solid black;
+        padding: 10px;
+        }
+        .flex-item {
+        padding: 20px;
+        background-color: lightblue;
+        margin: 5px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        }
+        .flex-container {
+        justify-content: space-between;
+        align-items: center;
+        }
+            .flex-item {
+                flex-grow: 1;
+                flex-basis: 60px;
+                transition: all 0.3s ease; /* Adiciona uma transição para visualizar mudanças */
+                }
+                .flex-item:hover {
+                background-color: lavender; /* Altera a cor de fundo ao passar o mouse */
+                }

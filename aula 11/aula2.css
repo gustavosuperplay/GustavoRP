@@ -1,0 +1,24 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: rgb(221, 18, 18);
+	font-family: sans-serif;
+}
+form {
+	width: 40vw;
+	background: white;
+	margin: 10vh auto;
+	padding: 40px;
+	border-radius: 1px;
+}
+.form-group {
+	margin: 15px 0;
+}
+.text {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 10px;
+	border: 1px solid lightGrey;
+}

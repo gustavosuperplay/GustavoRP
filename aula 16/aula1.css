@@ -1,0 +1,24 @@
+@keyframes slide {
+    0% { transform: translateX(0); }
+
+    50% { transform: translateX(100px); }
+
+    100% { transform: translateX(0); }
+    }
+    .element {
+    animation: slide 3s infinite;
+    }
+    .element{
+    width: 100px;
+    border: solid 1px black;
+    transition: width 0,5s ease-out;
+    transform: border 0,5s ease-out;
+    }
+    .element:hover{
+        width: 200px;
+        border: solid 2px red;
+    }
+    .element1{
+    animation: slide 3s infinite;
+    border: solid 2px  red;
+    }
