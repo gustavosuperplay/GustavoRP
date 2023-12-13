@@ -1,0 +1,26 @@
+body
+{
+    background-image: url(https://i.pinimg.com/736x/62/e0/66/62e0661393303ba6baaa49ecbce2ce5e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2
+{
+    color: #fffffa;
+}
+h1{
+    color: rgb(244, 237, 35);
+}
+.flex-container {
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+    }
+    .flex-item {
+        padding: 20px;
+        background-color: lightblue;
+        margin: 5px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        }
