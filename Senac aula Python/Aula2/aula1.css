@@ -92,3 +92,48 @@ transition: all 0.5s;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
+.home-btn{
+    padding: 15px 45px;
+    background:#e41795;
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transform: all 0.5s;
+}
+.home-btn:hover{
+    background: #e41795;
+}
+.home-img img{
+    width: 100%;
+}
+@media (max-width:785px) {
+    .navigation{
+        padding: 18px 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2){
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70%;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: #fff;
+        gap: -10px;
+        transform: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+}
