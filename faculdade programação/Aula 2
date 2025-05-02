@@ -1,0 +1,34 @@
+import socket
+import threading
+
+# Configurações do cliente
+HOST = '127.0.0.1'  # Endereço IP do servidor
+PORT = 5000         # Porta do servidor
+
+def receber_mensagens(conexao):
+    while True:
+        try:
+            mensagem = conexao.recv(1024).decode('utf-8')
+            if mensagem:
+                print(mensagem)
+            else:
+                break
+        except:
+            print("Conexão perdida com o servidor")
+            break
+
+def iniciar_cliente():
+    cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    cliente.connect((HOST, PORT))
+    print("Conectado ao servidor")
+
+    threading.Thread(target=receber_mensagens, args=(cliente,)).start()
+
+    while True:
+        mensagem = input()
+        if mensagem.lower() == 'sair':
+            cliente.close()
+            break
+        cliente.send(mensagem.encode('utf-8'))
+
+iniciar_cliente()
