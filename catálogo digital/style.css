@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrinho-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+.carrinho-icon i {
+    font-size: 1.5rem;
+}
+
+#carrinho-quantidade {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.produto h3 {
+    margin-bottom: 0.5rem;
+}
+
+.produto .preco {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.produto button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.produto button:hover {
+    background-color: #2980b9;
+}
+
+.carrinho-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carrinho-modal.ativo {
+    display: block;
+}
+
+.carrinho-conteudo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.carrinho-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.carrinho-item img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.carrinho-total {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #eee;
+}
+
+#finalizar-compra {
+    width: 100%;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#finalizar-compra:hover {
+    background-color: #27ae60;
+} 

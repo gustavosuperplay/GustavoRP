@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Container principal */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Exemplo de card responsivo */
+        .card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        /* Media queries para diferentes tamanhos de tela */
+        @media (min-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+                display: inline-block;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .card {
+                width: calc(33.33% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplo de Responsividade</h1>
+        
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>Este é um exemplo de card que se adapta ao tamanho da tela.</p>
+        </div>
+
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>Em telas pequenas, os cards ficam empilhados.</p>
+        </div>
+
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>Em telas médias, aparecem 2 por linha.</p>
+        </div>
+    </div>
+</body>
+</html>
