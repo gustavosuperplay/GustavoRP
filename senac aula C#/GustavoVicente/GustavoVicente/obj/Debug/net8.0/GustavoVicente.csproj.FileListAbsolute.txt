@@ -1,0 +1,14 @@
+T:\GustavoVicente\GustavoVicente\bin\Debug\net8.0\GustavoVicente.exe
+T:\GustavoVicente\GustavoVicente\bin\Debug\net8.0\GustavoVicente.deps.json
+T:\GustavoVicente\GustavoVicente\bin\Debug\net8.0\GustavoVicente.runtimeconfig.json
+T:\GustavoVicente\GustavoVicente\bin\Debug\net8.0\GustavoVicente.dll
+T:\GustavoVicente\GustavoVicente\bin\Debug\net8.0\GustavoVicente.pdb
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.GeneratedMSBuildEditorConfig.editorconfig
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.AssemblyInfoInputs.cache
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.AssemblyInfo.cs
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.csproj.CoreCompileInputs.cache
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.dll
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\refint\GustavoVicente.dll
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.pdb
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\GustavoVicente.genruntimeconfig.cache
+T:\GustavoVicente\GustavoVicente\obj\Debug\net8.0\ref\GustavoVicente.dll
